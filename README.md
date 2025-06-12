@@ -66,7 +66,7 @@ Ensure the cameras.db SQLite database is initialized automatically by the backen
 
 Set Up the Frontend
 
-Navigate to the frontend directory (assuming frontend files like App.js are in a frontend folder; create one if not provided).
+Navigate to the fronten directory (assuming frontend files like App.js are in a frontend folder; create one if not provided).
 Install frontend dependencies:cd frontend
 npm install
 
@@ -92,11 +92,8 @@ The backend should be accessible at http://localhost:5000.
 
 
 Start the Frontend
-
-In the frontend directory, start the React development server:npm start
-
-
-The frontend should open in your browser at http://localhost:3000.
+start the React development server:npm start
+open in your browser at http://localhost:3000.
 
 
 Access the Application
