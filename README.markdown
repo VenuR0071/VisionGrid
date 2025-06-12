@@ -101,22 +101,6 @@ To run this project locally, ensure you have the following installed:
    - Use the dashboard to add cameras by entering a camera ID and RTSP URL (e.g., `rtsp://your-camera-ip:554/stream`).
    - View camera streams, draw ROIs, and manage cameras via the interface.
 
-## Project Structure
-
-```
-your-repo-name/
-├── camera_urls.json        # Stores camera RTSP URLs (optional, can be empty)
-├── cameras.db              # SQLite database for camera and video metadata
-├── serv.py                 # Flask backend for video streaming and API
-├── frontend/               # React frontend directory
-│   ├── src/
-│   │   ├── App.js          # Main React component for the dashboard
-│   │   ├── DrawCanvas.js   # Component for drawing ROIs on streams
-│   │   ├── input.js        # Input controls for canvas drawing
-│   │   ├── index.js        # Entry point for React app
-│   ├── package.json        # Frontend dependencies
-├── README.md               # Project documentation
-```
 
 ## Features
 
@@ -178,9 +162,6 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
